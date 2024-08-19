@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    background: url('path-to-your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #333;
+}
+
+p, .btn {
+    font-family: 'Verdana', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#Cart {
+    width: 30%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+#Products {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn-custom {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+    color: white;
+}
